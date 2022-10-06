@@ -3,7 +3,7 @@
 
 generate v2ray/v2fly subscription file using server JSON config file
 
-  
+
 
 ## how to use
 
@@ -27,11 +27,11 @@ two files should be provided:
             {  	# if provided target domain scheme is http, connection wouldn't set tls, unless sni provided
             "target": "http://domain:port",
             "sni":"sni.example.com",
-            "tag": "tls profile 2" 
+            "tag": "tls profile 2"
             },
-            {  
+            {
             "target": "http://domain:port",
-            "tag": "http profile 1" 
+            "tag": "http profile 1"
             },
             { 	# multiple front-ends can be set for each inbound
             "target": "https://example.com:8181",
